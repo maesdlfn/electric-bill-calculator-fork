@@ -21,6 +21,12 @@ if is_senior == "yes":
     print(f"Consumption: {str(consumption)} kWh")
     print(f"Rate applied: ₱{str(rate)} /kWh")
     print(f"Total Due: ₱{str(total)}")
+elif is_senior == "no":
+    print("----- ELECTRIC BILL -----")
+    print(f"Name: {name}")
+    print(f"Consumption: {str(consumption)} kWh")
+    print(f"Rate applied: ₱{str(rate)} /kWh")
+    print(f"Total Due: ₱{str(total)}")
 else:
     print("Invalid Choice!")
 
