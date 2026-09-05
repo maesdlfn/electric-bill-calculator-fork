@@ -28,5 +28,5 @@ elif is_senior == "no":
     print(f"Rate applied: ₱{str(rate)} /kWh")
     print(f"Total Due: ₱{str(total)}")
 else:
-    print("Invalid Choice!")
+    print("Invalid Choice!!!")
 
